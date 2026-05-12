@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temperature Sensor | Elliot Lowery</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="../index.html">EL</a>
+      <div class="nav-links">
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#experience">Experience</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section project-detail">
+      <p class="section-label">Project Detail</p>
+      <h1>Temperature Sensor</h1>
+
+      <p class="detail-summary">
+        A semester-long temperature monitoring box that combined mechanical
+        design, electrical components, Arduino programming, and user-facing output.
+      </p>
+
+      <div class="detail-grid">
+        <section>
+          <h2>Overview</h2>
+          <p>
+            This project involved building a temperature monitoring box that reads
+            and displays temperature. The final design combined mechanical housing,
+            electrical wiring, sensors, LEDs, and an LCD screen.
+          </p>
+        </section>
+
+        <section>
+          <h2>Technical Focus</h2>
+          <ul>
+            <li>Arduino temperature reading logic</li>
+            <li>LCD screen output</li>
+            <li>LED status indicators</li>
+            <li>Mechanical housing design</li>
+            <li>9V battery holder design</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Tools Used</h2>
+          <div class="skill-cloud">
+            <span>Arduino</span>
+            <span>OnShape</span>
+            <span>3D Printing</span>
+            <span>LCD Display</span>
+            <span>LEDs</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>What I Learned</h2>
+          <p>
+            This project helped connect physical design choices with electrical
+            system behavior, especially in building a complete object rather than
+            only a circuit.
+          </p>
+        </section>
+      </div>
+
+      <a class="button secondary" href="../index.html#projects">Back to projects</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Elliot Lowery. Built with HTML and CSS.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

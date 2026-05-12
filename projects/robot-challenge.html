@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robot Challenge | Elliot Lowery</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="../index.html">EL</a>
+      <div class="nav-links">
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#experience">Experience</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section project-detail">
+      <p class="section-label">Project Detail</p>
+      <h1>Rastic X Hackhardware Robot Challenge</h1>
+
+      <p class="detail-summary">
+        A one-week hardware challenge to design a robot capable of picking up
+        magnetic coins. The project earned 3rd place.
+      </p>
+
+      <div class="detail-grid">
+        <section>
+          <h2>Overview</h2>
+          <p>
+            The challenge was to quickly design and build a robot that could pick
+            up magnetic coins. I worked on the picking-up mechanism and helped
+            translate the design idea into a working robot system.
+          </p>
+        </section>
+
+        <section>
+          <h2>Technical Focus</h2>
+          <ul>
+            <li>Magnetic pickup mechanism</li>
+            <li>Servo motor control</li>
+            <li>Arduino programming</li>
+            <li>Rapid prototyping</li>
+            <li>Physics-based design decisions</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Tools Used</h2>
+          <div class="skill-cloud">
+            <span>Arduino</span>
+            <span>Servo Motor</span>
+            <span>Mechanism Design</span>
+            <span>Physics</span>
+            <span>Robotics</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>What I Learned</h2>
+          <p>
+            This project emphasized fast design iteration, tradeoffs between simple
+            and reliable mechanisms, and the importance of testing hardware early.
+          </p>
+        </section>
+      </div>
+
+      <a class="button secondary" href="../index.html#projects">Back to projects</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Elliot Lowery. Built with HTML and CSS.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

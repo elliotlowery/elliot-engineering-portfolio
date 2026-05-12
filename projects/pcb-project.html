@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terrier Motorsport PCB Project | Elliot Lowery</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="../index.html">EL</a>
+      <div class="nav-links">
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#experience">Experience</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section project-detail">
+      <p class="section-label">Project Detail</p>
+      <h1>Terrier Motorsport Intro PCB Project</h1>
+
+      <p class="detail-summary">
+        A PCB project representing a racecar vehicle control center, focused on
+        precharge logic, motor activation, temperature monitoring, and safe
+        electrical system design.
+      </p>
+
+      <div class="detail-grid">
+        <section>
+          <h2>Overview</h2>
+          <p>
+            This project was completed as part of BU Terrier Motorsport onboarding.
+            The goal was to design and program a PCB that modeled important control
+            center behavior for a racecar electrical system.
+          </p>
+        </section>
+
+        <section>
+          <h2>Technical Focus</h2>
+          <ul>
+            <li>System precharge logic</li>
+            <li>Motor activation logic</li>
+            <li>Temperature monitoring using a DHT11 sensor</li>
+            <li>16x2 LCD display output</li>
+            <li>LV/HV isolation considerations</li>
+            <li>Voltage step-down circuitry for voltage greater than 12V</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Tools Used</h2>
+          <div class="skill-cloud">
+            <span>PCB Design</span>
+            <span>Arduino</span>
+            <span>DHT11</span>
+            <span>LCD Display</span>
+            <span>Circuit Design</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>What I Learned</h2>
+          <p>
+            This project strengthened my understanding of how embedded logic,
+            circuit design, and safety constraints interact in vehicle electronics.
+          </p>
+        </section>
+      </div>
+
+      <a class="button secondary" href="../index.html#projects">Back to projects</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Elliot Lowery. Built with HTML and CSS.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
