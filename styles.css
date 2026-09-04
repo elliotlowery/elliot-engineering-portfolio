@@ -52,6 +52,7 @@ footer {
   width: 42px;
   height: 42px;
   display: grid;
+  flex-shrink: 0;
   place-items: center;
   border: 1px solid var(--line);
   border-radius: 14px;
