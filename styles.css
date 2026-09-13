@@ -188,7 +188,34 @@ footer {
 .section-heading {
   margin-bottom: 1.5rem;
 }
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
 
+.project-gallery img {
+  width: 100%;
+  max-width: 500px;
+  height: 350px;
+  object-fit: contain;
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .project-gallery img {
+    height: auto;
+    max-width: 100%;
+  }
+}
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
