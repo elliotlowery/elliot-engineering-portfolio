@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FPGA Bop-It | Elliot Lowery</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="../index.html">EL</a>
+
+      <div class="nav-links">
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#experience">Experience</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section project-detail">
+
+      <p class="section-label">Project Detail</p>
+
+      <h1>FPGA Bop-It</h1>
+
+      <p class="detail-summary">
+        Used Verilog on an FPGA to recreate a Bop-It style game with multiple
+        interactive features, including physical movement, voice prompts, and
+        several different buttons for user input. The project combined digital
+        logic, hardware design, and programming to create an interactive game
+        system.
+      </p>
+
+      <!-- Project Photo -->
+      <div class="project-image">
+        <img
+          src="../images/fpga-bop-it/PHOTO-FILENAME.jpg"
+          alt="FPGA Bop-It project"
+        />
+      </div>
+
+      <div class="detail-grid">
+
+        <section>
+          <h2>Overview</h2>
+
+          <p>
+            The project used an FPGA and Verilog to recreate a Bop-It style
+            electronic game. The system included several different user inputs
+            and interactive features, including movement, voice prompts, and
+            multiple buttons. Digital logic was used to control the game
+            behavior and respond to the player's actions.
+          </p>
+        </section>
+
+        <section>
+          <h2>What I Did</h2>
+
+          <p>
+            I used digital logic design and Verilog to develop the state machine
+            that controlled the overall behavior of the game. I was also heavily
+            involved in debugging the system and resolving issues between the
+            different hardware and logic components. Additionally, I worked on
+            integrating the FPGA board's microphone and accelerometer, allowing
+            the game to respond to sound and physical movement as part of the
+            gameplay.
+          </p>
+        </section>
+
+        <section>
+          <h2>Technical Focus</h2>
+
+          <ul>
+            <li>Verilog</li>
+            <li>FPGA Development</li>
+            <li>Finite State Machine Design</li>
+            <li>Digital Logic</li>
+            <li>Accelerometer Integration</li>
+            <li>Microphone Integration</li>
+            <li>Hardware Debugging</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>What I Learned</h2>
+
+          <p>
+            This project strengthened my understanding of how digital logic and
+            Verilog can be used to control a complete interactive hardware
+            system. I gained experience debugging a system where multiple
+            hardware components and logic blocks had to work together reliably.
+            Integrating the microphone and accelerometer also gave me experience
+            working with hardware inputs beyond basic buttons and switches.
+          </p>
+        </section>
+
+      </div>
+
+      <!-- Project Video -->
+      <div class="project-video-container">
+        <video class="project-video" controls muted>
+          <source
+            src="../images/fpga-bop-it/VIDEO-FILENAME.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <a class="button secondary" href="../index.html#projects">
+        Back to projects
+      </a>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Elliot Lowery. Built with HTML and CSS.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
